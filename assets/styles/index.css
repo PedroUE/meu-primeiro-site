@@ -1,15 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
 /*Reset do CSS */
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
-h1,
-p {
-  text-align: center;
+/* Configurações gerais */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Mozilla Headline";
 }
 
 header {
-  background-color: rgb(52, 21, 173);
+  background: linear-gradient(rgb(44, 29, 104), rgba(255, 0, 0, 0.61)); 
   color: azure;
+  padding: 60px;
+  text-align: center;
+}
+
+about-section {
+  display: block;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+main {
+  background-color: rgb(197, 196, 196);
+  flex: 1;
+  padding: 48px 38px;
+  width: 100%;
+}
+
+#titulo-sobre-mim {
+  font-size: 30px;
+  border-bottom: 2px solid rgb(140, 163, 238)
+}
+
+.texto-sobre-mim {
+  font-size: 20px;
 }
