@@ -87,3 +87,24 @@ li:hover {
   border-bottom: 2px solid rgb(140, 163, 238);
   margin-bottom: 20px;
 }
+
+contact {
+  display: block;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+contact h2 {
+  margin-bottom: 8px;
+  font-size: 30px;
+  text-align: center;
+}
+
+  contact p {
+    text-align: center;
+    font-size: 22px;
+  }
