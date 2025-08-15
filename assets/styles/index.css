@@ -126,3 +126,15 @@ contact h2 {
     color: whitesmoke;
     transform: translateY(-2px);
   }
+
+  footer {
+    background-color: rgb(79, 53, 104);
+    color: whitesmoke;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
