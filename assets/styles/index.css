@@ -118,4 +118,11 @@ contact h2 {
     border: 2px solid #3498db;
     border-radius: 10px;
     display: inline-block;
+    transition: all 0.3s ease;
+  }
+
+  contact a:hover {
+    background-color: #3498db;
+    color: whitesmoke;
+    transform: translateY(-2px);
   }
